@@ -1,0 +1,13 @@
+{
+    "type": "content",
+    "modid": "blessedclasses",
+    "name": "BlessedClasses",
+    "authors": [
+        "BlessedOne"
+    ],
+    "description": "A Test mod to overhaul the vanilla traits to be more powerful.",
+    "version": "1.2.1",
+    "dependencies": {
+        "game": "1.21.6"
+    }
+}
