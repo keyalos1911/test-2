@@ -74,10 +74,10 @@ Press **F5** to build and launch the game for debugging.
 
 ## Key Files
 
-- **[modinfo.json](modinfo.json:1)** - Mod metadata (version, name, dependencies)
-- **[src/BlessedClassesModSystem.cs](src/BlessedClassesModSystem.cs:1)** - Main entry point, registers all custom classes
-- **[assets/blessedclasses/config/characterclasses.json](assets/blessedclasses/config/characterclasses.json:1)** - Character class definitions
-- **[assets/blessedclasses/config/traits.json](assets/blessedclasses/config/traits.json:1)** - Trait system definitions
+- **[modinfo.json](modinfo.json)** - Mod metadata (version, name, dependencies)
+- **[src/BlessedClassesModSystem.cs](src/BlessedClassesModSystem.cs)** - Main entry point, registers all custom classes
+- **[assets/blessedclasses/config/characterclasses.json](assets/blessedclasses/config/characterclasses.json)** - Character class definitions
+- **[assets/blessedclasses/config/traits.json](assets/blessedclasses/config/traits.json)** - Trait system definitions
 
 ## Resources
 
