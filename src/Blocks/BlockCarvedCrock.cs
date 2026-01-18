@@ -27,7 +27,7 @@ namespace BlessedClasses.src.Blocks
                 var slot = allInputslots[i];
                 if (slot.Itemstack == null) continue;
 
-                if (slot.Itemstack.Collectible is BlockCarvedCrock) {
+                if (slot.Itemstack.Collectible is BlockCrock) {
                     crockSlot = slot;
                 } else if (slot.Itemstack.ItemAttributes?["canSealCrock"]?.AsBool(false) == true) {
                     hasSealingIngredient = true;
