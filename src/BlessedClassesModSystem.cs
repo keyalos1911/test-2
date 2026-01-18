@@ -3,6 +3,7 @@ using BlessedClasses.src.CollectibleBehaviors;
 using BlessedClasses.src.Diagnostics;
 using BlessedClasses.src.Diagnostics.Patches;
 using BlessedClasses.src.EntityBehaviors;
+using BlessedClasses.src.Blocks;
 using BlessedClasses.src.Patches;
 using HarmonyLib;
 using System;
@@ -33,8 +34,6 @@ namespace BlessedClasses.src
         public const string ClayformingPatchesCategory = "BlessedClassesClayformingPatchesCatagory";
         public const string SilverTonguePatchesCategory = "BlessedClassesSilverTonguePatchCategory";
         public const string SpecialStockPatchesCategory = "BlessedClassesSpecialStockPatchesCategory";
-        //public const string LordoftheFeastRosinPatchCategory = "BlessedClassesLordoftheFeastRosinPatchCategory";
-        public const string BlockSchematicPatchCategory = "BlessedClassesBlockSchematicPatchCategory";
         public const string DragonskinPatchCategory = "BlessedClassesDragonskinPatchCategory";
         public const string DiagnosticPatchCategory = "BlessedClassesDiagnosticsPatchCategory";
         public const string CrockCraftingPatchCategory = "BlessedClassesCrockCraftingPatchCategory";
@@ -64,7 +63,7 @@ namespace BlessedClasses.src
             api.RegisterEntityBehaviorClass("EntityBehaviorFanatic", typeof(FanaticBehavior));
             api.RegisterEntityBehaviorClass("EntityBehaviorTemporalTraits", typeof(TemporalStabilityTraitBehavior));
             api.RegisterEntityBehaviorClass("EntityBehaviorDragonskin", typeof(DragonskinTraitBehavior));
-            api.RegisterBlockClass("BlockCarvedCrock", typeof(BlockCrock));
+            api.RegisterBlockClass("BlockCarvedCrock", typeof(BlockCarvedCrock));
 
             ApplyPatches();
 
@@ -157,8 +156,6 @@ namespace BlessedClasses.src
             harmony.PatchCategory(ClayformingPatchesCategory);
             harmony.PatchCategory(SilverTonguePatchesCategory);
             harmony.PatchCategory(SpecialStockPatchesCategory);
-            //harmony.PatchCategory(ChefRosinPatchCategory);
-            harmony.PatchCategory(BlockSchematicPatchCategory);
             harmony.PatchCategory(DragonskinPatchCategory);
             harmony.PatchCategory(CrockCraftingPatchCategory);
 
