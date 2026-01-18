@@ -64,10 +64,10 @@ namespace BlessedClasses.src.Blocks
                     mul *= 0.85f;  // unsealed: same as vanilla
                 } else if (isRosinSealed) {
                     // rosin sealed: better than vanilla
-                    mul *= (recipeCode == null) ? 0.0625f : 0.025f;
+                    mul *= recipeCode == null ? 0.0625f : 0.025f;
                 } else {
                     // fat/beeswax sealed: same as vanilla (0.25 or 0.1)
-                    mul *= (recipeCode == null) ? 0.125f : 0.05f;
+                    mul *= recipeCode == null ? 0.125f : 0.05f;
                 }
             }
 
@@ -96,10 +96,10 @@ namespace BlessedClasses.src.Blocks
                     mul *= 0.85f;  // unsealed: same as vanilla
                 } else if (isRosinSealed) {
                     // rosin sealed: better than vanilla
-                    mul *= (blockEntityCrock.RecipeCode == null) ? 0.0625f : 0.025f;
+                    mul *= blockEntityCrock.RecipeCode == null ? 0.0625f : 0.025f;
                 } else {
                     // fat/beeswax sealed: same as vanilla (0.25 or 0.1)
-                    mul *= (blockEntityCrock.RecipeCode == null) ? 0.125f : 0.05f;
+                    mul *= blockEntityCrock.RecipeCode == null ? 0.125f : 0.05f;
                 }
             }
 
