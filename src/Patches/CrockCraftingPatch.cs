@@ -1,7 +1,7 @@
 using HarmonyLib;
 using Vintagestory.API.Common;
 using Vintagestory.GameContent;
-using blessedclasses.src.Patches;
+using BlessedClasses.src.Blocks;
 
 namespace BlessedClasses.src.Patches {
 
