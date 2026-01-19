@@ -1,7 +1,7 @@
 {
 	"code": "metalpot",
 	"variantgroups": [
-		{ "code": "metal", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "gold", "silver", "electrum", "steel", "stainlesssteel"] },
+		{ "code": "metal", "states": ["copper", "tinbronze", "bismuthbronze", "blackbronze", "iron", "meteoriciron", "gold", "silver", "electrum", "steel"] },
 		{ "code": "type", "states": ["empty", "cooked"] }
 	],
 	"behaviors": [
@@ -145,12 +145,12 @@
 			"cookingSlotCapacityLitres": 7,
 			"servingCapacity": 7,
 			"maxServingSize": 7,
-			"mealBlockcode": "gloomeclasses:metalpot-copper-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-copper-cooked"
+			"mealBlockcode": "blessedclasses:metalpot-copper-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-copper-cooked"
 		},
 		"*-copper-cooked": {
-			"mealBlockcode": "gloomeclasses:metalpot-copper-cooked",
-			"emptiedBlockcode": "gloomeclasses:metalpot-copper-empty",
+			"mealBlockcode": "blessedclasses:metalpot-copper-cooked",
+			"emptiedBlockcode": "blessedclasses:metalpot-copper-empty",
 			"servingCapacity": 7,
 			"allowHeating": true,
 			"handleCookingContainerInteract": true
@@ -160,12 +160,12 @@
 			"cookingSlotCapacityLitres": 8,
 			"servingCapacity": 8,
 			"maxServingSize": 8,
-			"mealBlockcode": "gloomeclasses:metalpot-tinbronze-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-tinbronze-cooked"
+			"mealBlockcode": "blessedclasses:metalpot-tinbronze-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-tinbronze-cooked"
 		},
 		"*-tinbronze-cooked": {
-			"mealBlockcode": "gloomeclasses:metalpot-tinbronze-cooked",
-			"emptiedBlockcode": "gloomeclasses:metalpot-tinbronze-empty",
+			"mealBlockcode": "blessedclasses:metalpot-tinbronze-cooked",
+			"emptiedBlockcode": "blessedclasses:metalpot-tinbronze-empty",
 			"servingCapacity": 8,
 			"allowHeating": true,
 			"handleCookingContainerInteract": true
@@ -175,12 +175,12 @@
 			"cookingSlotCapacityLitres": 8,
 			"servingCapacity": 8,
 			"maxServingSize": 8,
-			"mealBlockcode": "gloomeclasses:metalpot-bismuthbronze-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-bismuthbronze-cooked"
+			"mealBlockcode": "blessedclasses:metalpot-bismuthbronze-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-bismuthbronze-cooked"
 		},
 		"*-bismuthbronze-cooked": {
-			"mealBlockcode": "gloomeclasses:metalpot-bismuthbronze-cooked",
-			"emptiedBlockcode": "gloomeclasses:metalpot-bismuthbronze-empty",
+			"mealBlockcode": "blessedclasses:metalpot-bismuthbronze-cooked",
+			"emptiedBlockcode": "blessedclasses:metalpot-bismuthbronze-empty",
 			"servingCapacity": 8,
 			"allowHeating": true,
 			"handleCookingContainerInteract": true
@@ -190,12 +190,12 @@
 			"cookingSlotCapacityLitres": 9,
 			"servingCapacity": 9,
 			"maxServingSize": 9,
-			"mealBlockcode": "gloomeclasses:metalpot-blackbronze-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-blackbronze-cooked"
+			"mealBlockcode": "blessedclasses:metalpot-blackbronze-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-blackbronze-cooked"
 		},
 		"*-blackbronze-cooked": {
-			"mealBlockcode": "gloomeclasses:metalpot-blackbronze-cooked",
-			"emptiedBlockcode": "gloomeclasses:metalpot-blackbronze-empty",
+			"mealBlockcode": "blessedclasses:metalpot-blackbronze-cooked",
+			"emptiedBlockcode": "blessedclasses:metalpot-blackbronze-empty",
 			"servingCapacity": 9,
 			"allowHeating": true,
 			"handleCookingContainerInteract": true
@@ -205,12 +205,12 @@
 			"cookingSlotCapacityLitres": 10,
 			"servingCapacity": 10,
 			"maxServingSize": 10,
-			"mealBlockcode": "gloomeclasses:metalpot-iron-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-iron-cooked"
+			"mealBlockcode": "blessedclasses:metalpot-iron-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-iron-cooked"
 		},
 		"*-iron-cooked": {
-			"mealBlockcode": "gloomeclasses:metalpot-iron-cooked",
-			"emptiedBlockcode": "gloomeclasses:metalpot-iron-empty",
+			"mealBlockcode": "blessedclasses:metalpot-iron-cooked",
+			"emptiedBlockcode": "blessedclasses:metalpot-iron-empty",
 			"servingCapacity": 10,
 			"allowHeating": true,
 			"handleCookingContainerInteract": true
@@ -220,12 +220,12 @@
 			"cookingSlotCapacityLitres": 11,
 			"servingCapacity": 11,
 			"maxServingSize": 11,
-			"mealBlockcode": "gloomeclasses:metalpot-meteoriciron-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-meteoriciron-cooked"
+			"mealBlockcode": "blessedclasses:metalpot-meteoriciron-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-meteoriciron-cooked"
 		},
 		"*-meteoriciron-cooked": {
-			"mealBlockcode": "gloomeclasses:metalpot-meteoriciron-cooked",
-			"emptiedBlockcode": "gloomeclasses:metalpot-meteoriciron-empty",
+			"mealBlockcode": "blessedclasses:metalpot-meteoriciron-cooked",
+			"emptiedBlockcode": "blessedclasses:metalpot-meteoriciron-empty",
 			"servingCapacity": 11,
 			"allowHeating": true,
 			"handleCookingContainerInteract": true
@@ -235,12 +235,12 @@
 			"cookingSlotCapacityLitres": 12,
 			"servingCapacity": 12,
 			"maxServingSize": 12,
-			"mealBlockcode": "gloomeclasses:metalpot-gold-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-gold-cooked"
+			"mealBlockcode": "blessedclasses:metalpot-gold-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-gold-cooked"
 		},
 		"*-gold-cooked": {
-			"mealBlockcode": "gloomeclasses:metalpot-gold-cooked",
-			"emptiedBlockcode": "gloomeclasses:metalpot-gold-empty",
+			"mealBlockcode": "blessedclasses:metalpot-gold-cooked",
+			"emptiedBlockcode": "blessedclasses:metalpot-gold-empty",
 			"servingCapacity": 12,
 			"allowHeating": true,
 			"handleCookingContainerInteract": true
@@ -250,12 +250,12 @@
 			"cookingSlotCapacityLitres": 12,
 			"servingCapacity": 12,
 			"maxServingSize": 12,
-			"mealBlockcode": "gloomeclasses:metalpot-silver-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-silver-cooked"
+			"mealBlockcode": "blessedclasses:metalpot-silver-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-silver-cooked"
 		},
 		"*-silver-cooked": {
-			"mealBlockcode": "gloomeclasses:metalpot-silver-cooked",
-			"emptiedBlockcode": "gloomeclasses:metalpot-silver-empty",
+			"mealBlockcode": "blessedclasses:metalpot-silver-cooked",
+			"emptiedBlockcode": "blessedclasses:metalpot-silver-empty",
 			"servingCapacity": 12,
 			"allowHeating": true,
 			"handleCookingContainerInteract": true
@@ -265,12 +265,12 @@
 			"cookingSlotCapacityLitres": 12,
 			"servingCapacity": 12,
 			"maxServingSize": 12,
-			"mealBlockcode": "gloomeclasses:metalpot-electrum-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-electrum-cooked"
+			"mealBlockcode": "blessedclasses:metalpot-electrum-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-electrum-cooked"
 		},
 		"*-electrum-cooked": {
-			"mealBlockcode": "gloomeclasses:metalpot-electrum-cooked",
-			"emptiedBlockcode": "gloomeclasses:metalpot-electrum-empty",
+			"mealBlockcode": "blessedclasses:metalpot-electrum-cooked",
+			"emptiedBlockcode": "blessedclasses:metalpot-electrum-empty",
 			"servingCapacity": 12,
 			"allowHeating": true,
 			"handleCookingContainerInteract": true
@@ -280,28 +280,13 @@
 			"cookingSlotCapacityLitres": 13,
 			"servingCapacity": 13,
 			"maxServingSize": 13,
-			"mealBlockcode": "gloomeclasses:metalpot-steel-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-steel-cooked"
+			"mealBlockcode": "blessedclasses:metalpot-steel-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-steel-cooked"
 		},
 		"*-steel-cooked": {
-			"mealBlockcode": "gloomeclasses:metalpot-steel-cooked",
-			"emptiedBlockcode": "gloomeclasses:metalpot-steel-empty",
+			"mealBlockcode": "blessedclasses:metalpot-steel-cooked",
+			"emptiedBlockcode": "blessedclasses:metalpot-steel-empty",
 			"servingCapacity": 13,
-			"allowHeating": true,
-			"handleCookingContainerInteract": true
-		},
-		"*-stainlesssteel-empty": {
-			"maxContainerSlotStackSize": 14,
-			"cookingSlotCapacityLitres": 14,
-			"servingCapacity": 14,
-			"maxServingSize": 14,
-			"mealBlockcode": "gloomeclasses:metalpot-stainlesssteel-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-stainlesssteel-cooked"
-		},
-		"*-stainlesssteel-cooked": {
-			"mealBlockcode": "gloomeclasses:metalpot-stainlesssteel-cooked",
-			"emptiedBlockcode": "gloomeclasses:metalpot-stainlesssteel-empty",
-			"servingCapacity": 14,
 			"allowHeating": true,
 			"handleCookingContainerInteract": true
 		}
@@ -395,9 +380,6 @@
 		},
 		"*-steel-*": {
 			"ceramic": { "base": "game:block/metal/ingot/steel" }
-		},
-		"*-stainlesssteel-*": {
-			"ceramic": { "base": "game:block/metal/ingot/stainlesssteel" }
 		}
 	},
 	"sounds": { "walk": "game:walk/stone" },

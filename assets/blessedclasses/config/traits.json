@@ -278,7 +278,7 @@
 		"code": "dread",
 		"type": "negative",
 		"attributes": {
-			"rustedDamage": -0.10
+			"rustedDamage": -0.1
 		}
 	},
 	{

@@ -113,20 +113,20 @@ namespace BlessedClasses.src.Diagnostics
 						Logger.Debug("[BlessedClasses]   Returned {0} character classes", resultArray.Length);
 
 						// check if BlessedClasses traits are visible
-						int glooCount = 0;
+						int blessedCount = 0;
 						foreach (var item in resultArray) {
-                            if (item?.GetType().GetProperty("Code")?.GetValue(item) is string codeField && codeField.ToLower().Contains("gloo"))
+                            if (item?.GetType().GetProperty("Code")?.GetValue(item) is string codeField && codeField.ToLower().Contains("blessed"))
                             {
-                                glooCount++;
+                                blessedCount++;
                             }
-                            else if (item?.GetType().GetProperty("Traits")?.GetValue(item) is string[] traitsField && traitsField.Any(t => t.ToLower().Contains("gloo")))
+                            else if (item?.GetType().GetProperty("Traits")?.GetValue(item) is string[] traitsField && traitsField.Any(t => t.ToLower().Contains("blessed")))
                             {
-                                glooCount++;
+                                blessedCount++;
                             }
                         }
 
-						if (glooCount > 0) {
-							Logger.Debug("[BlessedClasses]   BlessedClasses visible: YES ({0} classes)", glooCount);
+						if (blessedCount > 0) {
+							Logger.Debug("[BlessedClasses]   BlessedClasses visible: YES ({0} classes)", blessedCount);
 						} else {
 							Logger.Warning("[BlessedClasses]   BlessedClasses visible: NO - other mods may not see our traits!");
 						}
@@ -164,11 +164,11 @@ namespace BlessedClasses.src.Diagnostics
                 Logger.Notification("[BlessedClasses] Total classes loaded: {0}", characterClasses.Length);
 
 				// check for BlessedClasses presence
-				int glooCount = 0;
+				int blessedCount = 0;
 				foreach (var item in characterClasses) {
-                    if (item?.GetType().GetProperty("Code")?.GetValue(item) is string codeField && codeField.ToLower().Contains("gloo"))
+                    if (item?.GetType().GetProperty("Code")?.GetValue(item) is string codeField && codeField.ToLower().Contains("blessed"))
                     {
-                        glooCount++;
+                        blessedCount++;
                         var traitsField = item.GetType().GetProperty("Traits")?.GetValue(item) as string[];
                         var traitCount = traitsField?.Length ?? 0;
 
@@ -184,8 +184,8 @@ namespace BlessedClasses.src.Diagnostics
                     }
                 }
 
-				if (glooCount > 0) {
-					Logger.Notification("[BlessedClasses] ✓ BlessedClasses character classes found: {0}", glooCount);
+				if (blessedCount > 0) {
+					Logger.Notification("[BlessedClasses] ✓ BlessedClasses character classes found: {0}", blessedCount);
 				} else {
 					Logger.Warning("[BlessedClasses] ⚠ No BlessedClasses character classes found!");
 					Logger.Warning("[BlessedClasses]   This indicates a load order or asset loading problem");
@@ -202,7 +202,7 @@ namespace BlessedClasses.src.Diagnostics
 		public static void GetClass_Prefix(string classCode) {
 			if (Logger == null || string.IsNullOrEmpty(classCode)) return;
 
-			if (classCode.ToLower().Contains("gloo")) {
+			if (classCode.ToLower().Contains("blessed")) {
 				Logger.Debug("[BlessedClasses] GetClass called for BlessedClasses class: {0}", classCode);
 			}
 		}
@@ -210,7 +210,7 @@ namespace BlessedClasses.src.Diagnostics
 		public static void GetClass_Postfix(string classCode, object __result) {
 			if (Logger == null || string.IsNullOrEmpty(classCode)) return;
 
-			if (classCode.ToLower().Contains("gloo")) {
+			if (classCode.ToLower().Contains("blessed")) {
 				if (__result != null) {
 					var codeField = __result.GetType().GetProperty("Code")?.GetValue(__result) as string;
 					var traitsField = __result.GetType().GetProperty("Traits")?.GetValue(__result) as string[];

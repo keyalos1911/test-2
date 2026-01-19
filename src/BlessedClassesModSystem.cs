@@ -37,7 +37,15 @@ namespace BlessedClasses.src
         public const string DragonskinPatchCategory = "BlessedClassesDragonskinPatchCategory";
         public const string DiagnosticPatchCategory = "BlessedClassesDiagnosticsPatchCategory";
         public const string CrockCraftingPatchCategory = "BlessedClassesCrockCraftingPatchCategory";
+    public override void StartPre(ICoreAPI api) {
+    Api = api;
+    Logger = Mod.Logger;
+    ModID = Mod.Info.ModID;
 
+    // Initialize diagnostic systems
+    DiagnosticLogger.Initialize(api, Logger);
+    //MeshDiagnostics.Initialize(api);
+}
         public static ICoreAPI Api;
         public static ICoreClientAPI CApi;
         public static ICoreServerAPI SApi;
@@ -45,16 +53,6 @@ namespace BlessedClasses.src
         public static string ModID;
         public const string FlaxRateStat = "flaxFiberChance";
         public const string BonusClayVoxelsStat = "clayformingPoints";
-
-        public override void StartPre(ICoreAPI api) {
-            Api = api;
-            Logger = Mod.Logger;
-            ModID = Mod.Info.ModID;
-
-            // Initialize diagnostic systems
-            DiagnosticLogger.Initialize(api, Logger);
-            //MeshDiagnostics.Initialize(api);
-}
         public override void Start(ICoreAPI api)
         {
             api.RegisterCollectibleBehaviorClass("HealHackedBehavior", typeof(HealHackedLocustsBehavior));

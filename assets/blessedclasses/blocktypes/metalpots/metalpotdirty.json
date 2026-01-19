@@ -27,7 +27,7 @@
 				"translation": { "x": 0, "y": 0.125, "z": 0 }
 			},
 			"useFirepitModel": "Wide"
-		},
+		}
 	},
 	"attributesByType": {
 		"*-copper-*": {
@@ -35,99 +35,90 @@
 			"cookingSlotCapacityLitres": 7,
       "servingCapacity": 7,
       "maxServingSize": 7,
-			"mealBlockCode": "gloomeclasses:metalpotdirty-copper-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-copper-cooked",
-			"emptiedBlockCode": "gloomeclasses:metalpotdirty-copper-empty"
+			"mealBlockCode": "blessedclasses:metalpotdirty-copper-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-copper-cooked",
+			"emptiedBlockCode": "blessedclasses:metalpotdirty-copper-empty"
 		},
 		"*-tinbronze-*": {
 			"maxContainerSlotStackSize": 8,
 			"cookingSlotCapacityLitres": 8,
       "servingCapacity": 8,
       "maxServingSize": 8,
-			"mealBlockCode": "gloomeclasses:metalpotdirty-tinbronze-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-tinbronze-cooked",
-			"emptiedBlockCode": "gloomeclasses:metalpotdirty-tinbronze-empty"
+			"mealBlockCode": "blessedclasses:metalpotdirty-tinbronze-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-tinbronze-cooked",
+			"emptiedBlockCode": "blessedclasses:metalpotdirty-tinbronze-empty"
 		},
 		"*-bismuthbronze-*": {
 			"maxContainerSlotStackSize": 8,
 			"cookingSlotCapacityLitres": 8,
       "servingCapacity": 8,
       "maxServingSize": 8,
-			"mealBlockCode": "gloomeclasses:metalpotdirty-bismuthbronze-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-bismuthbronze-cooked",
-			"emptiedBlockCode": "gloomeclasses:metalpotdirty-bismuthbronze-empty"
+			"mealBlockCode": "blessedclasses:metalpotdirty-bismuthbronze-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-bismuthbronze-cooked",
+			"emptiedBlockCode": "blessedclasses:metalpotdirty-bismuthbronze-empty"
 		},
 		"*-blackbronze-*": {
 			"maxContainerSlotStackSize": 9,
 			"cookingSlotCapacityLitres": 9,
       "servingCapacity": 9,
       "maxServingSize": 9,
-			"mealBlockCode": "gloomeclasses:metalpotdirty-blackbronze-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-blackbronze-cooked",
-			"emptiedBlockCode": "gloomeclasses:metalpotdirty-blackbronze-empty"
+			"mealBlockCode": "blessedclasses:metalpotdirty-blackbronze-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-blackbronze-cooked",
+			"emptiedBlockCode": "blessedclasses:metalpotdirty-blackbronze-empty"
 		},
 		"*-iron-*": {
 			"maxContainerSlotStackSize": 10,
 			"cookingSlotCapacityLitres": 10,
       "servingCapacity": 10,
       "maxServingSize": 10,
-			"mealBlockCode": "gloomeclasses:metalpotdirty-iron-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-iron-cooked",
-			"emptiedBlockCode": "gloomeclasses:metalpotdirty-iron-empty"
+			"mealBlockCode": "blessedclasses:metalpotdirty-iron-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-iron-cooked",
+			"emptiedBlockCode": "blessedclasses:metalpotdirty-iron-empty"
 		},
 		"*-meteoriciron-*": {
 			"maxContainerSlotStackSize": 11,
 			"cookingSlotCapacityLitres": 11,
       "servingCapacity": 11,
       "maxServingSize": 11,
-			"mealBlockCode": "gloomeclasses:metalpotdirty-meteoriciron-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-meteoriciron-cooked",
-			"emptiedBlockCode": "gloomeclasses:metalpotdirty-meteoriciron-empty"
+			"mealBlockCode": "blessedclasses:metalpotdirty-meteoriciron-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-meteoriciron-cooked",
+			"emptiedBlockCode": "blessedclasses:metalpotdirty-meteoriciron-empty"
 		},
 		"*-gold-*": {
 			"maxContainerSlotStackSize": 12,
 			"cookingSlotCapacityLitres": 12,
       "servingCapacity": 12,
       "maxServingSize": 12,
-			"mealBlockCode": "gloomeclasses:metalpotdirty-gold-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-gold-cooked",
-			"emptiedBlockCode": "gloomeclasses:metalpotdirty-gold-empty"
+			"mealBlockCode": "blessedclasses:metalpotdirty-gold-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-gold-cooked",
+			"emptiedBlockCode": "blessedclasses:metalpotdirty-gold-empty"
 		},
 		"*-silver-*": {
 			"maxContainerSlotStackSize": 12,
 			"cookingSlotCapacityLitres": 12,
       "servingCapacity": 12,
       "maxServingSize": 12,
-			"mealBlockCode": "gloomeclasses:metalpotdirty-silver-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-silver-cooked",
-			"emptiedBlockCode": "gloomeclasses:metalpotdirty-silver-empty"
+			"mealBlockCode": "blessedclasses:metalpotdirty-silver-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-silver-cooked",
+			"emptiedBlockCode": "blessedclasses:metalpotdirty-silver-empty"
 		},
 		"*-electrum-*": {
 			"maxContainerSlotStackSize": 12,
 			"cookingSlotCapacityLitres": 12,
       "servingCapacity": 12,
       "maxServingSize": 12,
-			"mealBlockCode": "gloomeclasses:metalpotdirty-electrum-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-electrum-cooked",
-			"emptiedBlockCode": "gloomeclasses:metalpotdirty-electrum-empty"
+			"mealBlockCode": "blessedclasses:metalpotdirty-electrum-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-electrum-cooked",
+			"emptiedBlockCode": "blessedclasses:metalpotdirty-electrum-empty"
 		},
 		"*-steel-*": {
 			"maxContainerSlotStackSize": 13,
 			"cookingSlotCapacityLitres": 13,
       "servingCapacity": 13,
       "maxServingSize": 13,
-			"mealBlockCode": "gloomeclasses:metalpotdirty-steel-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-steel-cooked",
-			"emptiedBlockCode": "gloomeclasses:metalpotdirty-steel-empty"
-		},
-		"*-stainlesssteel-*": {
-			"maxContainerSlotStackSize": 14,
-			"cookingSlotCapacityLitres": 14,
-      "servingCapacity": 14,
-      "maxServingSize": 14,
-			"mealBlockCode": "gloomeclasses:metalpotdirty-stainlesssteel-cooked",
-			"dirtiedBlockCode": "gloomeclasses:metalpotdirty-stainlesssteel-cooked",
-			"emptiedBlockCode": "gloomeclasses:metalpotdirty-stainlesssteel-empty"
+			"mealBlockCode": "blessedclasses:metalpotdirty-steel-cooked",
+			"dirtiedBlockCode": "blessedclasses:metalpotdirty-steel-cooked",
+			"emptiedBlockCode": "blessedclasses:metalpotdirty-steel-empty"
 		}
 	},
 	"entityclassByType": {

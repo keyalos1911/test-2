@@ -122,12 +122,12 @@ namespace BlessedClasses.src.Diagnostics
 				LogEntry(LogCategory.CharacterSystem, $"Total classes: {characterClasses.Length}");
 
 				// find BlessedClasses characters using reflection
-				int glooCount = 0;
+				int blessedCount = 0;
 				foreach (var item in characterClasses) {
                     var traitsField = item?.GetType().GetProperty("Traits")?.GetValue(item) as string[];
 
-                    if (item?.GetType().GetProperty("Code")?.GetValue(item) is string codeField && codeField.Contains("gloo", StringComparison.CurrentCultureIgnoreCase)) {
-						glooCount++;
+                    if (item?.GetType().GetProperty("Code")?.GetValue(item) is string codeField && codeField.Contains("blessed", StringComparison.CurrentCultureIgnoreCase)) {
+						blessedCount++;
 						var traits = traitsField != null ? string.Join(", ", traitsField) : "none";
 						logger.Debug("[BlessedClasses]   Class: {0}", codeField);
 						logger.Debug("[BlessedClasses]     Traits: {0}", traits);
@@ -135,7 +135,7 @@ namespace BlessedClasses.src.Diagnostics
 					}
 				}
 
-				logger.Notification("[BlessedClasses] BlessedClasses character classes: {0}", glooCount);
+				logger.Notification("[BlessedClasses] BlessedClasses character classes: {0}", blessedCount);
 
 			} catch (Exception ex) {
 				logger.Error("[BlessedClasses] Error logging character system state: {0}", ex.Message);
@@ -291,11 +291,11 @@ namespace BlessedClasses.src.Diagnostics
 
 				// categorize classes
 				int vanillaCount = 0;
-				int glooCount = 0;
+				int blessedCount = 0;
 				int otherModCount = 0;
 
 				var vanillaClasses = new List<string>();
-				var glooClasses = new List<string>();
+				var blessedClasses = new List<string>();
 				var otherModClasses = new List<string>();
 
 				foreach (var item in characterClasses) {
@@ -309,9 +309,9 @@ namespace BlessedClasses.src.Diagnostics
 						vanillaClasses.Add(code);
 					}
 					// detect BlessedClasses
-					else if (code.Contains("gloo", StringComparison.CurrentCultureIgnoreCase)) {
-						glooCount++;
-						glooClasses.Add(code);
+					else if (code.Contains("blessed", StringComparison.CurrentCultureIgnoreCase)) {
+						blessedCount++;
+						blessedClasses.Add(code);
 					}
 					// other mods
 					else {
@@ -325,8 +325,8 @@ namespace BlessedClasses.src.Diagnostics
 					logger.Debug("[BlessedClasses]   - {0}", className);
 				}
 
-				logger.Notification("[BlessedClasses] BlessedClasses: {0}", glooCount);
-				foreach (var className in glooClasses) {
+				logger.Notification("[BlessedClasses] BlessedClasses: {0}", blessedCount);
+				foreach (var className in blessedClasses) {
 					logger.Debug("[BlessedClasses]   - {0}", className);
 				}
 
@@ -337,7 +337,7 @@ namespace BlessedClasses.src.Diagnostics
 					}
 				}
 
-				LogEntry(LogCategory.CharacterSystem, $"Classes detected: {vanillaCount} vanilla, {glooCount} BlessedClasses, {otherModCount} other");
+				LogEntry(LogCategory.CharacterSystem, $"Classes detected: {vanillaCount} vanilla, {blessedCount} BlessedClasses, {otherModCount} other");
 
 			} catch (Exception ex) {
 				logger.Error("[BlessedClasses] Error detecting character classes: {0}", ex.Message);

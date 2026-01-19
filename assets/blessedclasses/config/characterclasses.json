@@ -261,7 +261,7 @@
 	]
   },
   {
-	"enabled": false,
+	"enabled": true,
     "code": "lordoftheforge",
 	"traits": [
 		"smith",
