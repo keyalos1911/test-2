@@ -95,7 +95,7 @@ namespace BlessedClasses.src
         /// used to auto-migrate players who had vanilla classes before installing this mod.
         /// </summary>
         private static readonly Dictionary<string, string> VanillaToBlessedClassMap = new() {
-            { "commoner", "lordofthewilds" },
+            { "commoner", "lordofthecommons" },
             { "hunter", "lordofthehunt" },
             { "malefactor", "lordoftheruins" },
             { "clockmaker", "lordofinvention" },
