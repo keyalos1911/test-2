@@ -20,25 +20,6 @@
 	]
   },
   {
-	"enabled": false,
-    "code": "lordofwar",
-	"traits": [
-		"soldierblessed",
-		"hardyblessed",
-		"manatarms",
-		"ravenous",
-		"heavyfooted",
-		"heavyhanded"
-	],
-	"gear": [
-		{ "type": "item", "code": "game:clothes-upperbody-blackguard-shirt" },
-		{ "type": "item", "code": "game:clothes-lowerbody-blackguard-leggings" },
-		{ "type": "item", "code": "game:clothes-foot-blackguard-shoes" },
-		{ "type": "item", "code": "game:clothes-emblem-blackguard-pin" },
-		{ "type": "item", "code": "game:clothes-waist-blackguard-belt" }
-	]
-  },
-  {
 	"enabled": true,
     "code": "lordofinvention",
 	"traits": [
@@ -68,26 +49,6 @@
 		"fasting",
 		"hardyblessed",
 		"resistant"
-	],
-	"gear": [
-		{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" },
-		{ "type": "item", "code": "game:clothes-upperbodyover-commoner-coat" },
-		{ "type": "item", "code": "game:clothes-lowerbody-commoner-trousers" },
-		{ "type": "item", "code": "game:clothes-foot-commoner-boots" },
-		{ "type": "item", "code": "game:clothes-hand-commoner-gloves" }
-	]
-  },
-  {
-	"enabled": false,
-    "code": "lordofexplorers",
-	"traits": [
-		"powerfullegs",
-		"greenshadow",
-		"hardyblessed",
-		"sluggish",
-		"squeamish",
-		"petraphobia",
-		"fearful"
 	],
 	"gear": [
 		{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" },
