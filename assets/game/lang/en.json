@@ -10,11 +10,9 @@
 	"characterclass-lordofthehunt": "Hunt",
 	"characterclass-lordoftheruins": "Ruins",
 	"characterclass-lordofinvention": "Invention",
-	"characterclass-lordofwar": "War",
 	"characterclass-lordofthecloth": "Cloth",
 	"characterclass-lordofdeath": "Death",
 	"characterclass-lordofthefeast": "Feast",
-	"characterclass-lordofexplorers": "Exploration",
 	"characterclass-lordofnature": "Naturalist",
 
 	"characterdesc-lordoftheclay": "<font color=\"#99c9f9\"><i>The world is your clay, you make it what you will it to be.</i></font><br><br>Lords of the clay are so focused on their work that they forget to eat, and they are some of the kindest people you will ever meet.",
@@ -28,11 +26,9 @@
 	"characterdesc-lordofthehunt": "<font color=\"#99c9f9\"><i>Loose the arrow, kill the beast. You are the one who keeps them all alive, don't forget that.</i></font><br><br>Lords of the Hunt are the best there is at the craft of hunting and butchering, but they won't be caught dead in a cave.",
 	"characterdesc-lordoftheruins": "<font color=\"#99c9f9\"><i>You will search every nook and cranny for the bounties of old, nothing shall escape your grasp.</i></font><br><br>Lords of the Ruins are built to find the places of old and loot them to their fullest potential. You are swift, but are weaker than most.",
 	"characterdesc-lordofinvention": "<font color=\"#99c9f9\"><i>Booms tend to echo wherever you are, as you are always testing new theories.</i></font><br><br>Lords of Invention are masters of all things mechanical, and thus, know how to kill the crazed mechanical creatures in this new world. You know how to source your own materials, but you prefer to buy it when possible. Your loaded pockets keep you weighed down, but that's just a hazard of the title.",
-	"characterdesc-lordofwar": "<font color=\"#99c9f9\"><i>Fighting and killing is all you know.</i></font><br><br>Lords of War are the specialists that people go to when they need something taken care of with violence.",
 	"characterdesc-lordofthecloth": "<font color=\"#99c9f9\"><i>Crafters of all things cloth, they stave off the cold.</i></font><br><br>Lords of the Cloth are not built for a life of wilderness survival, but they excel when in a more civil area.",
 	"characterdesc-lordofdeath": "<font color=\"#99c9f9\"><i>People seek you when Lords of War can't handle something.</i></font><br><br>Be the Lord of Death that you were always meant to be. You excel at violence, but lack any skills in any other area. You were built for one thing only.",
 	"characterdesc-lordofthefeast": "<font color=\"#99c9f9\"><i>Keep the meat cooked and bread baked, the people need to eat.</i></font><br><br>Lords of the Feast are those who make sure that the Lords of the Hunts' bounties are used to their fullest potential. You have a knack for butchery, archery and gathering, but find yourself lacking when it comes to hand to hand combat.",
-	"characterdesc-lordofexplorers": "<font color=\"#99c9f9\"><i>Leave no stone unturned, you will find everything you're looking for and more.</i></font><br><br>Lords of Exploration are the go-to when it comes to finding locations or traders in the wild. They are swift, but are not accustomed to armor. However, they are not good at gathering ore or butchering animals.",
 	"characterdesc-lordofnature": "<font color=\"#99c9f9\"><i>You alone have command of the true bounty of nature.</i></font><br><br>Lords of Nature often find themselves gathering for the joy of it, and they excel at finding the best bounties of mushrooms and berries. They are swift, and too kind to harm animals.",
 
 	"trait-scrounger": "<font color=\"#84ff84\">• Scrounger </font>",
@@ -200,6 +196,8 @@
 	"traitdesc-smith": "Placeholder",
 	"traitdesc-gourmand": "Exclusive craftable metal cooking pots and carved crocks</a>",
 	"traitdesc-storageexpert": "Exclusive craftable rosin that doubles the longevity of food sealed in carved crocks</a>",
+	"traitdesc-dread": "Your fear over the rusted has the better of you. (-10% damage to rusted)",
+	"traitdesc-miner": "Years in the depths have honed your craft. (+75% ore, +150% mining speed)",
 
 	"charattribute-flaxFiberChance-0.25": "+25% chance to get flax fibers from grass",
 	"charattribute-flaxDropRate-2": "+200% flax fibers collected from flax crops",
