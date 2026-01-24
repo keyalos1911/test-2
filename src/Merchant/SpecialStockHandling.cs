@@ -30,6 +30,12 @@ namespace BlessedClasses.src.Merchant {
         public const string TempMainAttribute = "tempMainInventory";
 
         public static void LoadAndOpenSpecialStock(EntityTradingHumanoid trader) {
+            // already in special stock mode, current inventory is the special stock
+            if (trader.WatchedAttributes.HasAttribute(TempMainAttribute)) {
+                return;
+            }
+
+            // entering special stock mode, save main inventory
             ITreeAttribute tree = new TreeAttribute();
             trader.Inventory.ToTreeAttributes(tree);
             trader.WatchedAttributes[TempMainAttribute] = tree;
