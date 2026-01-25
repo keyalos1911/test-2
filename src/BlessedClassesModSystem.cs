@@ -37,6 +37,11 @@ namespace BlessedClasses.src
         public const string DragonskinPatchCategory = "BlessedClassesDragonskinPatchCategory";
         public const string DiagnosticPatchCategory = "BlessedClassesDiagnosticsPatchCategory";
         public const string CrockCraftingPatchCategory = "BlessedClassesCrockCraftingPatchCategory";
+        public const string SmithPatchCategory = "BlessedClassesSmithPatchCategory";
+
+        // smith trait constants
+        public const string SmithCraftedAttribute = "blessedclasses:smithCrafted";
+        public const float SmithDurabilityBonus = 1.25f; // 25% durability bonus
     public override void StartPre(ICoreAPI api) {
     Api = api;
     Logger = Mod.Logger;
@@ -156,6 +161,7 @@ namespace BlessedClasses.src
             harmony.PatchCategory(SpecialStockPatchesCategory);
             harmony.PatchCategory(DragonskinPatchCategory);
             harmony.PatchCategory(CrockCraftingPatchCategory);
+            harmony.PatchCategory(SmithPatchCategory);
 
             // apply diagnostic patches
             TraitSystemDiagnostics.ApplyTraitSystemPatches(harmony);
