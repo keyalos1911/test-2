@@ -193,7 +193,7 @@
 	"traitdesc-shelteredstone": "No temporal stability loss whilst underground, no matter how deep. Also allows the crafting of mining lanterns and the Miner's Pack.",
 	"traitdesc-recycler": "Can break down <a href=\"handbooksearch://rusty gear\">rusty gears</a>, <a href=\"handbooksearch://metal scraps\">metal scraps</a>, and <a href=\"handbooksearch://metal parts\">metal parts</a> for metals of that type",
 	"traitdesc-tallowtanner": "Can recycle unused pelts into <a href=\"handbooksearch://scraped hide\">scraped hides</a>",
-	"traitdesc-smith": "Your expertise at the forge produces superior work. (+25% durability on crafted tools)",
+	"traitdesc-smith": "Your expertise at the forge produces superior work. (+100% durability on crafted tools)",
 	"traitdesc-gourmand": "Exclusive craftable metal cooking pots and carved crocks</a>",
 	"traitdesc-storageexpert": "Exclusive craftable rosin that doubles the longevity of food sealed in carved crocks</a>",
 	"traitdesc-dread": "Your fear over the rusted has the better of you. (-10% damage to rusted)",
