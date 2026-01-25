@@ -41,7 +41,7 @@ namespace BlessedClasses.src
 
         // smith trait constants
         public const string SmithCraftedAttribute = "blessedclasses:smithCrafted";
-        public const float SmithDurabilityBonus = 1.25f; // 25% durability bonus
+        public const float SmithDurabilityBonus = 2f; // 100% durability bonus
     public override void StartPre(ICoreAPI api) {
     Api = api;
     Logger = Mod.Logger;
