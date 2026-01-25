@@ -31,18 +31,18 @@ namespace BlessedClasses.src.Patches {
         /// - allInputslots: all ingredients used in the recipe
         /// - outputSlot: the resulting crafted item
         /// - byRecipe: the recipe that was used
-        /// - byPlayer: the player who crafted it (can be null for non-player crafting)
+        /// note: player is NOT a parameter - get it from outputSlot.Inventory
         /// </summary>
         [HarmonyPostfix]
         [HarmonyPatch(nameof(CollectibleObject.OnCreatedByCrafting))]
         private static void SmithCraftedPostfix(
             ItemSlot[] allInputslots,
             ItemSlot outputSlot,
-            GridRecipe byRecipe,
-            IPlayer byPlayer) {
+            GridRecipe byRecipe) {
 
-            // it would benefit you to look up how
-            // and why to perform null checks, which look like this
+            // get player from the crafting inventory (InventoryBasePlayer stores playerUID)
+            IPlayer byPlayer = (outputSlot.Inventory as InventoryBasePlayer)?.Player;
+
             if (byPlayer == null || outputSlot?.Itemstack == null) {
                 return;
             }
