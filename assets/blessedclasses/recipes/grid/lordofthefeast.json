@@ -315,7 +315,7 @@
 		"output": {
 			"type": "item",
 			"code": "blessedclasses:rosin",
-			"quantity": 2
+			"quantity": 3
 		}
 	},
 	{
@@ -339,7 +339,7 @@
 		"output": {
 			"type": "item",
 			"code": "blessedclasses:rosin",
-			"quantity": 1
+			"quantity": 2
 		}
 	},
 	{
