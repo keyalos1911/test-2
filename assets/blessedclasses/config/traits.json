@@ -315,7 +315,7 @@
 		"code": "glutton",
 		"type": "negative",
 		"attributes": {
-			"hungerrate": 0.5
+			"hungerrate": 0.25
 		}
 	},
 	{

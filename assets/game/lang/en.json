@@ -250,7 +250,7 @@
 	"charattribute-miningSpeedMul--0.5": "-50% mining speed",
 	"charattribute-miningSpeedMul--0.35": "-35% mining speed",
 	"charattribute-hungerrate--0.3": "-30% hunger rate",
-	"charattribute-hungerrate-0.5": "+50% hunger rate",
+	"charattribute-hungerrate-0.25": "+25% hunger rate",
 	"charattribute-maxhealthExtraPoints--2": "-2 health points",
 	"charattribute-maxhealthExtraPoints-4": "+4 health points",
 	"charattribute-maxhealthExtraPoints-8": "+8 health points",
