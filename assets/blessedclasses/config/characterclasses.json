@@ -161,9 +161,9 @@
 		"greenshadow",
 		"powerfullegs",
 		"logger",
-		"dread",
-		"frailblessed",
-		"fearful"
+		"weakblessed",
+		"squeamish",
+		"glutton"
 	],
 	"gear": [
 			{ "type": "item", "code": "game:clothes-shoulder-jord-robe" },
