@@ -254,11 +254,10 @@
 		"gourmand",
 		"storageexpert",
 		"butcher",
-		"manatarms",
-		"scrounger",
-		"sluggish",
-		"frailblessed",
-		"cowardly"
+		"beserker",
+		"hardyblessed",
+		"unarmored",
+		"glutton"
 	],
 	"gear": [
 			{ "type": "item", "code": "game:clothes-upperbody-commoner-shirt" },
@@ -277,11 +276,10 @@
 		"soldierblessed",
 		"manatarms",
 		"hardyblessed",
-		"butcher",
+		"slaughterer",
 		"glutton",
 		"heavyhanded",
 		"petraphobia",
-		"heavyfooted",
 		"slow"
 	],
 	"gear": [

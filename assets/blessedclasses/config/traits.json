@@ -235,10 +235,37 @@
 		}
 	},
 	{
+		"code": "slaughterer",
+		"type": "positive",
+		"attributes": {
+			"animalLootDropRate": 0.35,
+			"animalHarvestingTime": -0.75,
+			"animalSeekingRange": 0.6
+		}
+	},
+	{
 		"code": "sluggish",
 		"type": "negative",
 		"attributes": {
 			"armorWalkSpeedAffectedness": 0.10
+		}
+	},
+	{
+	"code": "unarmored",
+		"type": "negative",
+		"attributes": {
+			"armorWalkSpeedAffectedness": 0.25
+		}
+	},
+	{
+	"code": "beserker",
+		"type": "positive",
+		"attributes": {
+			"slashingDamageFactor": 0.5,
+			"piercingDamageFactor": 0.5,
+			"bluntDamageFactor": 0.5,
+			"meleeWeaponsDamage": 1.0,
+			"walkspeed": 0.25
 		}
 	},
 	{
